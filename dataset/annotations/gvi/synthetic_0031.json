@@ -1,0 +1,552 @@
+{
+  "image_path": "dataset\\images\\train\\synthetic_0031.png",
+  "width": 640,
+  "height": 360,
+  "split": "train",
+  "objects": [
+    {
+      "id": "syn_b45ca8d1",
+      "class_name": "platform",
+      "class_id": null,
+      "bbox_xywh": [
+        159.0,
+        259.0,
+        177.0,
+        23.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            159.0,
+            259.0
+          ],
+          [
+            336.0,
+            259.0
+          ],
+          [
+            336.0,
+            282.0
+          ],
+          [
+            159.0,
+            282.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_996c3a38",
+      "class_name": "platform",
+      "class_id": null,
+      "bbox_xywh": [
+        193.0,
+        169.0,
+        80.0,
+        19.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            193.0,
+            169.0
+          ],
+          [
+            273.0,
+            169.0
+          ],
+          [
+            273.0,
+            188.0
+          ],
+          [
+            193.0,
+            188.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_c1f2b44e",
+      "class_name": "platform",
+      "class_id": null,
+      "bbox_xywh": [
+        93.0,
+        224.0,
+        164.0,
+        26.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            93.0,
+            224.0
+          ],
+          [
+            257.0,
+            224.0
+          ],
+          [
+            257.0,
+            250.0
+          ],
+          [
+            93.0,
+            250.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_62db9752",
+      "class_name": "platform",
+      "class_id": null,
+      "bbox_xywh": [
+        55.0,
+        116.0,
+        174.0,
+        14.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            55.0,
+            116.0
+          ],
+          [
+            229.0,
+            116.0
+          ],
+          [
+            229.0,
+            130.0
+          ],
+          [
+            55.0,
+            130.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_026b51ab",
+      "class_name": "platform",
+      "class_id": null,
+      "bbox_xywh": [
+        66.0,
+        271.0,
+        147.0,
+        20.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            66.0,
+            271.0
+          ],
+          [
+            213.0,
+            271.0
+          ],
+          [
+            213.0,
+            291.0
+          ],
+          [
+            66.0,
+            291.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_02cf07b6",
+      "class_name": "ladder",
+      "class_id": null,
+      "bbox_xywh": [
+        459.0,
+        176.0,
+        25.0,
+        81.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            459.0,
+            176.0
+          ],
+          [
+            484.0,
+            176.0
+          ],
+          [
+            484.0,
+            257.0
+          ],
+          [
+            459.0,
+            257.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_f4924d71",
+      "class_name": "ladder",
+      "class_id": null,
+      "bbox_xywh": [
+        191.0,
+        154.0,
+        25.0,
+        79.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            191.0,
+            154.0
+          ],
+          [
+            216.0,
+            154.0
+          ],
+          [
+            216.0,
+            233.0
+          ],
+          [
+            191.0,
+            233.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_c1fa244e",
+      "class_name": "spike",
+      "class_id": null,
+      "bbox_xywh": [
+        126.0,
+        193.0,
+        28.0,
+        24.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            126.0,
+            217.0
+          ],
+          [
+            140.0,
+            193.0
+          ],
+          [
+            154.0,
+            217.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_7b8ae8bc",
+      "class_name": "spike",
+      "class_id": null,
+      "bbox_xywh": [
+        199.0,
+        220.0,
+        28.0,
+        24.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            199.0,
+            244.0
+          ],
+          [
+            213.0,
+            220.0
+          ],
+          [
+            227.0,
+            244.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_ab2c52aa",
+      "class_name": "spike",
+      "class_id": null,
+      "bbox_xywh": [
+        90.0,
+        200.0,
+        28.0,
+        24.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            90.0,
+            224.0
+          ],
+          [
+            104.0,
+            200.0
+          ],
+          [
+            118.0,
+            224.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_2aa0c7c1",
+      "class_name": "door",
+      "class_id": null,
+      "bbox_xywh": [
+        298.0,
+        290.0,
+        32.0,
+        58.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            298.0,
+            290.0
+          ],
+          [
+            330.0,
+            290.0
+          ],
+          [
+            330.0,
+            348.0
+          ],
+          [
+            298.0,
+            348.0
+          ]
+        ]
+      },
+      "confidence": 0.98,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_e335b9ec",
+      "class_name": "enemy",
+      "class_id": null,
+      "bbox_xywh": [
+        484.0,
+        184.0,
+        32.0,
+        24.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            484.0,
+            184.0
+          ],
+          [
+            516.0,
+            184.0
+          ],
+          [
+            516.0,
+            208.0
+          ],
+          [
+            484.0,
+            208.0
+          ]
+        ]
+      },
+      "confidence": 0.97,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_5f8269cd",
+      "class_name": "enemy",
+      "class_id": null,
+      "bbox_xywh": [
+        502.0,
+        166.0,
+        32.0,
+        24.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            502.0,
+            166.0
+          ],
+          [
+            534.0,
+            166.0
+          ],
+          [
+            534.0,
+            190.0
+          ],
+          [
+            502.0,
+            190.0
+          ]
+        ]
+      },
+      "confidence": 0.97,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_3f1aeca7",
+      "class_name": "pickup",
+      "class_id": null,
+      "bbox_xywh": [
+        260.0,
+        223.0,
+        12.0,
+        12.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            260.0,
+            223.0
+          ],
+          [
+            272.0,
+            223.0
+          ],
+          [
+            272.0,
+            235.0
+          ],
+          [
+            260.0,
+            235.0
+          ]
+        ]
+      },
+      "confidence": 0.97,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    },
+    {
+      "id": "syn_c122402a",
+      "class_name": "pickup",
+      "class_id": null,
+      "bbox_xywh": [
+        564.0,
+        59.0,
+        12.0,
+        12.0
+      ],
+      "polygon": {
+        "points": [
+          [
+            564.0,
+            59.0
+          ],
+          [
+            576.0,
+            59.0
+          ],
+          [
+            576.0,
+            71.0
+          ],
+          [
+            564.0,
+            71.0
+          ]
+        ]
+      },
+      "confidence": 0.97,
+      "source": "synthetic",
+      "godot_candidates": [],
+      "needs_review": false,
+      "review_reason": null,
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}

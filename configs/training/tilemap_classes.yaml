@@ -1,0 +1,27 @@
+name: tilemap
+version: "1.0"
+classes:
+  - id: 0
+    name: solid_tile
+    description: Repeated solid tile.
+    prompts: [solid tile, block tile, wall tile, floor tile]
+    godot_candidates: [TileMapLayer, TileSet]
+    color: "#00E5FF"
+  - id: 1
+    name: empty_tile
+    description: Empty walkable/transparent tile.
+    prompts: [empty tile, air tile, blank tile]
+    godot_candidates: [TileMapLayer]
+    color: "#111111"
+  - id: 2
+    name: hazard_tile
+    description: Repeated hazard tile.
+    prompts: [hazard tile, spike tile, trap tile]
+    godot_candidates: [TileMapLayer, Area2D]
+    color: "#FF5252"
+  - id: 3
+    name: decoration_tile
+    description: Decorative repeated tile.
+    prompts: [decoration tile, background tile]
+    godot_candidates: [TileMapLayer]
+    color: "#B388FF"

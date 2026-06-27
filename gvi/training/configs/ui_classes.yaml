@@ -1,0 +1,33 @@
+name: ui
+version: "1.0"
+classes:
+  - id: 0
+    name: ui_panel
+    description: UI panel/card/container.
+    prompts: [ui panel, panel, card, menu background, container]
+    godot_candidates: [Panel, NinePatchRect, TextureRect]
+    color: "#448AFF"
+  - id: 1
+    name: ui_button
+    description: Clickable UI button.
+    prompts: [button, ui button, menu button, clickable button]
+    godot_candidates: [Button, TextureButton]
+    color: "#00E5FF"
+  - id: 2
+    name: ui_text
+    description: Editable UI text/label.
+    prompts: [text, label, menu text, title text]
+    godot_candidates: [Label, RichTextLabel]
+    color: "#FFEA00"
+  - id: 3
+    name: icon
+    description: UI icon or small pictogram.
+    prompts: [icon, menu icon, pictogram, small symbol]
+    godot_candidates: [TextureRect, Sprite2D]
+    color: "#69F0AE"
+  - id: 4
+    name: background
+    description: UI background image or fill.
+    prompts: [background, ui background, screen background]
+    godot_candidates: [TextureRect, ColorRect]
+    color: "#304FFE"

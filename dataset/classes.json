@@ -1,0 +1,363 @@
+{
+  "name": "platformer",
+  "version": "1.0",
+  "classes": [
+    {
+      "id": 0,
+      "name": "platform",
+      "description": "Solid traversable gameplay surface.",
+      "prompts": [
+        "platform",
+        "floor platform",
+        "black platform",
+        "game platform",
+        "solid ledge"
+      ],
+      "godot_candidates": [
+        "StaticBody2D",
+        "CollisionPolygon2D",
+        "Sprite2D"
+      ],
+      "color": "#00E5FF",
+      "rules": {
+        "prefer_horizontal": true,
+        "collision": "solid"
+      }
+    },
+    {
+      "id": 1,
+      "name": "wall",
+      "description": "Solid vertical or background boundary.",
+      "prompts": [
+        "wall",
+        "solid wall",
+        "game wall",
+        "block wall"
+      ],
+      "godot_candidates": [
+        "StaticBody2D",
+        "CollisionPolygon2D",
+        "Sprite2D"
+      ],
+      "color": "#448AFF",
+      "rules": {
+        "collision": "solid"
+      }
+    },
+    {
+      "id": 2,
+      "name": "floor",
+      "description": "Main ground/floor collision surface.",
+      "prompts": [
+        "floor",
+        "ground",
+        "main floor",
+        "bottom platform"
+      ],
+      "godot_candidates": [
+        "StaticBody2D",
+        "CollisionShape2D",
+        "Sprite2D"
+      ],
+      "color": "#64FFDA",
+      "rules": {
+        "prefer_bottom": true,
+        "collision": "solid"
+      }
+    },
+    {
+      "id": 3,
+      "name": "ladder",
+      "description": "Climbable vertical ladder.",
+      "prompts": [
+        "ladder",
+        "white ladder",
+        "climb ladder",
+        "vertical ladder with rungs"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "CollisionShape2D",
+        "Sprite2D"
+      ],
+      "color": "#FFEA00",
+      "rules": {
+        "prefer_vertical": true,
+        "interaction": "climb"
+      }
+    },
+    {
+      "id": 4,
+      "name": "spike",
+      "description": "Pointed hazard, often triangular.",
+      "prompts": [
+        "spike",
+        "spikes",
+        "triangular spikes",
+        "sharp hazard"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "CollisionPolygon2D",
+        "Sprite2D"
+      ],
+      "color": "#FF5252",
+      "rules": {
+        "prefer_triangular": true,
+        "damage": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "hazard",
+      "description": "Generic dangerous gameplay area.",
+      "prompts": [
+        "hazard",
+        "dangerous object",
+        "trap",
+        "damaging zone"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "CollisionPolygon2D",
+        "Sprite2D"
+      ],
+      "color": "#FF1744",
+      "rules": {
+        "damage": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "door",
+      "description": "Door or level transition object.",
+      "prompts": [
+        "door",
+        "exit door",
+        "rectangular door",
+        "portal door"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "CollisionShape2D",
+        "Sprite2D"
+      ],
+      "color": "#B388FF",
+      "rules": {
+        "prefer_vertical": true,
+        "interaction": "enter"
+      }
+    },
+    {
+      "id": 7,
+      "name": "exit",
+      "description": "Goal or level exit marker.",
+      "prompts": [
+        "exit",
+        "goal",
+        "endpoint",
+        "level exit"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Marker2D",
+        "Sprite2D"
+      ],
+      "color": "#EA80FC",
+      "rules": {
+        "interaction": "win"
+      }
+    },
+    {
+      "id": 8,
+      "name": "player_spawn",
+      "description": "Initial player spawn marker.",
+      "prompts": [
+        "player spawn",
+        "start point",
+        "player marker"
+      ],
+      "godot_candidates": [
+        "Marker2D"
+      ],
+      "color": "#69F0AE",
+      "rules": {
+        "spawn": "player"
+      }
+    },
+    {
+      "id": 9,
+      "name": "enemy",
+      "description": "Enemy or character-like gameplay entity.",
+      "prompts": [
+        "enemy",
+        "monster",
+        "orange enemy",
+        "character",
+        "hostile character"
+      ],
+      "godot_candidates": [
+        "Marker2D",
+        "CharacterBody2D",
+        "Sprite2D"
+      ],
+      "color": "#FF9100",
+      "rules": {
+        "entity": true
+      }
+    },
+    {
+      "id": 10,
+      "name": "pickup",
+      "description": "Collectible or interactive pickup.",
+      "prompts": [
+        "pickup",
+        "collectible",
+        "item",
+        "glowing orb",
+        "power up"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Sprite2D"
+      ],
+      "color": "#C6FF00",
+      "rules": {
+        "collectible": true
+      }
+    },
+    {
+      "id": 11,
+      "name": "coin",
+      "description": "Coin-like collectible.",
+      "prompts": [
+        "coin",
+        "gold coin",
+        "collectible coin"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Sprite2D"
+      ],
+      "color": "#FFD740",
+      "rules": {
+        "collectible": true
+      }
+    },
+    {
+      "id": 12,
+      "name": "button",
+      "description": "In-level button or trigger.",
+      "prompts": [
+        "button",
+        "switch button",
+        "pressure button"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Sprite2D"
+      ],
+      "color": "#18FFFF",
+      "rules": {
+        "interaction": "trigger"
+      }
+    },
+    {
+      "id": 13,
+      "name": "lever",
+      "description": "In-level lever or switch.",
+      "prompts": [
+        "lever",
+        "switch lever",
+        "handle switch"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Sprite2D"
+      ],
+      "color": "#00BFA5",
+      "rules": {
+        "interaction": "trigger"
+      }
+    },
+    {
+      "id": 14,
+      "name": "water",
+      "description": "Water/lava/liquid-like region.",
+      "prompts": [
+        "water",
+        "liquid",
+        "blue water",
+        "pool"
+      ],
+      "godot_candidates": [
+        "Area2D",
+        "Polygon2D",
+        "Sprite2D"
+      ],
+      "color": "#40C4FF",
+      "rules": {
+        "liquid": true
+      }
+    },
+    {
+      "id": 15,
+      "name": "background",
+      "description": "Non-interactive background layer.",
+      "prompts": [
+        "background",
+        "wall background",
+        "distant background",
+        "blue grid background"
+      ],
+      "godot_candidates": [
+        "Sprite2D",
+        "TextureRect",
+        "ParallaxBackground"
+      ],
+      "color": "#304FFE",
+      "rules": {
+        "locked": true,
+        "z_index": -100
+      }
+    },
+    {
+      "id": 16,
+      "name": "foreground_decoration",
+      "description": "Non-interactive foreground decoration.",
+      "prompts": [
+        "decoration",
+        "foreground decoration",
+        "decorative prop"
+      ],
+      "godot_candidates": [
+        "Sprite2D"
+      ],
+      "color": "#F50057",
+      "rules": {
+        "decorative": true
+      }
+    },
+    {
+      "id": 17,
+      "name": "light",
+      "description": "Light orb or lamp marker.",
+      "prompts": [
+        "light",
+        "glowing light",
+        "glowing orb",
+        "lamp",
+        "small light"
+      ],
+      "godot_candidates": [
+        "PointLight2D",
+        "Sprite2D"
+      ],
+      "color": "#FFFFFF",
+      "rules": {
+        "light": true
+      }
+    }
+  ],
+  "metadata": {}
+}

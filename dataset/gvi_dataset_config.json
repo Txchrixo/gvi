@@ -1,0 +1,17 @@
+{
+  "dataset_root": "C:\\Users\\Chris Nana\\Downloads\\gvi_v1_2_1_training_ready\\gvi_v1_3_training_ready\\dataset",
+  "taxonomy_name": "platformer",
+  "image_extensions": [
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp",
+    ".bmp"
+  ],
+  "train_ratio": 0.8,
+  "val_ratio": 0.15,
+  "test_ratio": 0.05,
+  "seed": 42,
+  "task": "segment",
+  "metadata": {}
+}
